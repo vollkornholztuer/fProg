@@ -29,21 +29,23 @@ int main()
     int numbersArrayLength = sizeof(numbers) / sizeof(int); // Arraylänge berechnen
 
     // Bubblesort
-    bool swapped = true;
-    while (swapped)
-    {
-        swapped = false;
-        for (int i = 1; i < numbersArrayLength; i++)
-        {
-            if (numbers[i - 1] > numbers[i])
-            {
-                swapped = true;
-                int temp = numbers[i - 1];
-                numbers[i - 1] = numbers[i];
-                numbers[i] = temp;
-            }
-        }
-    }
+    // bool swapped = true;
+    // while (swapped)
+    // {
+    //     swapped = false;
+    //     for (int i = 1; i < numbersArrayLength; i++)
+    //     {
+    //         if (numbers[i - 1] > numbers[i])
+    //         {
+    //             swapped = true;
+    //             int temp = numbers[i - 1];
+    //             numbers[i - 1] = numbers[i];
+    //             numbers[i] = temp;
+    //         }
+    //     }
+    // }
+
+    range::sort(numbers);
 
     // Print Array
     std::cout << "[";

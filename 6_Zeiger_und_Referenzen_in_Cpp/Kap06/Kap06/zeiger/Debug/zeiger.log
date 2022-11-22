@@ -1,0 +1,6 @@
+﻿  ptr_add.cpp
+\\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\zeiger\ptr_add.cpp(17,14): warning C4101: "q2": Unreferenzierte lokale Variable
+\\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\zeiger\ptr_add.cpp(17,10): warning C4101: "q1": Unreferenzierte lokale Variable
+\\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\zeiger\ptr_add.cpp(10,12): warning C4101: "p3": Unreferenzierte lokale Variable
+\\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\zeiger\ptr_add.cpp(9,14): warning C4101: "p2": Unreferenzierte lokale Variable
+  zeiger.vcxproj -> \\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\Debug\01-zeiger-addition.exe

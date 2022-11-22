@@ -1,3 +1,5 @@
+#include <iostream>
+
 string &strToUpper(const string &s1)
 {
 
@@ -9,4 +11,10 @@ string &strToUpper(const string &s1)
         s2 += toupper(s1[i]);
 
     return s2;
+}
+
+int main()
+{
+    string testString = "Pizza";
+    strToUpper(testString);
 }

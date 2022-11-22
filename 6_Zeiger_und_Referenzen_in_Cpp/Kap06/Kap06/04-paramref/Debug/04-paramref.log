@@ -1,0 +1,3 @@
+﻿  paramref.cpp
+\\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\04-paramref\paramref.cpp(44,20): error C2664: "void swap_refs(int &,int &)" : Konvertierung von Argument 1 von "int" in "int &" nicht möglich
+\\Mac\Home\Documents\FH\Lehre\WS22-23\Programmieren\Beispiele\Kap06\04-paramref\paramref.cpp(18,6): message : Siehe Deklaration von "swap_refs"
