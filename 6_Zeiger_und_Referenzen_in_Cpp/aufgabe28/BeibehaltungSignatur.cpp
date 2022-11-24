@@ -1,4 +1,8 @@
 #include <iostream>
+// include Strings
+#include <string>
+
+using namespace std;
 
 string &strToUpper(const string &s1)
 {
@@ -17,4 +21,5 @@ int main()
 {
     string testString = "Pizza";
     strToUpper(testString);
+    cout << testString << cout;
 }

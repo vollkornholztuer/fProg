@@ -1,10 +1,10 @@
 #include <iostream>
 
-string &strToUpper(const string &s1)
+char &strToUpper(const char[] & s1)
 {
 
-    string s2;
-    s2 = " ";
+    char s2[s1.length() / 1] = {a}; // char = 1 byte, deshalb durch 1 geteilt
+    // s2 = " ";
 
     for (int i = 0; i < s1.length(); i++)
 
